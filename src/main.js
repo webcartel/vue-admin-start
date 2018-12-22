@@ -7,7 +7,10 @@ import Vuetify from "vuetify";
 import "vuetify/dist/vuetify.min.css";
 import "material-design-icons-iconfont/dist/material-design-icons.css";
 Vue.use(Vuetify, {
-  iconfont: "mdidx"
+  iconfont: "mdidx",
+  theme: {
+    primary: "#0088cc"
+  }
 });
 
 Vue.config.productionTip = false;
